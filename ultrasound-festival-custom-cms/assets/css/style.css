@@ -1,0 +1,196 @@
+/* CSS Document */
+/***BODY STYLING***/
+body {
+	padding: 0;
+	margin: 0;
+	background-color:#CCC;
+}
+
+/***LOGIN/LOGOUT/PWD RESET STYLES***/
+#formDiv {
+	width: 200px;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+#errorCheckResult{
+	margin: 0px auto;
+	color: red;
+	display:none;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+#formBox{
+    box-shadow: 5px 5px 5px grey;
+}
+#formTab{
+    text-align: center;
+    padding: 0;
+    height: 40px;
+}
+#formTabActive{ 
+    background-color: #e3e4e4;
+    height:40px;
+    padding-top: 10px;
+}
+#formTabInactive{
+    background-color: white;
+    height:40px;
+    padding-top: 10px;
+}
+#formInput{
+    background-color: #e3e4e4;
+    padding: 10px 10px 40px 10px;
+}
+#formTabText{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+#formTabText:hover{
+/*    text-shadow: 0.1px 0.1px 0.5px red;*/
+    color:darkslategrey;
+    font-weight: 600;
+}
+
+/***FOOTER STYLES***/
+#footer{
+    height: auto;
+    width: 100%;
+    background-color: #B60D0D;
+    color: white;
+}
+#footerControls{
+    color: white;
+    float: right;
+    padding: 0 5px;
+}
+#footerControls a{
+    color: white;
+    text-decoration: none;
+}
+#footerControls a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* Sidenav bootstrap override style */
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+		color: white!important;
+		background-color: #b60d0d!important;
+	}
+	.nav-pills>li>a, .nav-pills>li>a:focus, .nav-pills>li>a:hover {
+		color: #b60d0d!important;
+	}
+
+
+/***BLOG PAGE STYLE***/
+.blog-box {
+	background-color: #222222;
+	color: white;
+	border-radius: 15px;
+	padding: 5px 10px 5px 10px;
+	margin-bottom: 20px;
+	border: 1px solid #b60d0d;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.blog-header {
+	margin-top: 5px;
+}
+
+.blog-info {
+	margin-bottom: 10px;
+}
+
+#blog-post-input{
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 15px;
+    border: 1px solid #b60d0d;
+    box-shadow: 5px 5px 5px grey;
+    background-color: #222222;
+    color: white;
+}
+
+#blog-post-input-label{
+    margin: 0;
+}
+
+/***ARTISTS PAGE STYLES***/
+#artists-post-img{
+    border-radius: 50%;
+}
+#artists-post-header{
+    font-size: 65px;
+}
+#artists-post-div{
+    margin: 70px 0;
+    padding: 20px 0 40px 0;
+    background-color: #222222;
+    border-radius: 10px;
+    border: 1px solid #b60d0d;
+    box-shadow: 2.5px 2.5px 5px grey;
+    color: white;
+}
+@media only screen and (max-width: 1199px){
+    #artists-post-content{
+        text-align: center;
+    }
+    
+}
+
+/***GALLERY STYLES***/
+
+.img-responsive {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin: 5px 0;
+}
+
+.img-responsive:hover {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+ 
+}
+#upload-div{
+    background-color:#222222;
+    border-radius: 15px;
+    box-shadow: 2.5px 2.5px 5px grey;
+    border: 1px solid red;
+    padding: 10px;
+    color: white;
+    margin-bottom: 30px;
+    
+}
+
+/***HOME STYLES***/
+#home-blog-div{
+    color: white;
+    background-color: #222222;
+    border-radius: 10px;
+    border: 1px solid #b60d0d;
+    box-shadow: 2.5px 2.5px 5px grey;
+    padding-top: 20px;
+    margin: 10px 10px;
+}
+
+/***CONTACT STYLES***/
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
